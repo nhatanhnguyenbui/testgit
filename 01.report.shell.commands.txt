@@ -1,0 +1,80 @@
+Report practical 01 OS
+
+1. 	Command: 	echo hello world
+   	Output: 	hello world
+
+2. 	Command: 	passwd
+   	Output: 	
+		Changing password for nhatanhnguyenbui.
+	   	Old Password:
+
+3. 	Command: 	date
+   	Output: 	Tue Jan 14 09:23:22 +07 2020
+
+4. 	Command: 	hostname
+   	Output: 	MerJason.local
+
+5. 	Command: 	arch
+   	Output: 	i386
+
+6. 	Command: 	uname -a
+   	Output: 	
+		Darwin MerJason.local 19.2.0 Darwin Kernel Version 19.2.0: Sat Nov  			9 03:47:04 PST 2019; root:xnu-6153.61.1~20/RELEASE_X86_64 x86_64
+
+7. 	Command: 	sudo dmesg
+   	Output: 	
+		handle_get_purgeable_stats:8512: total purgeable file count: 0 				total purgeable 	   
+		size: 0
+           	Sandbox: com.apple.WebKit(10518) deny(1) mach-lookup 
+	   	com.apple.CoreDisplay.NotificationIOConsoleUsers: time(0) 0->0, 				lin 1, llk 0, 
+	   	IOConsoleUsers: gIOScreenLockState 1, hs 0, bs 0, now 0, sm 0x0
+	   	Starting poll type 4
+	   	Restarting poll type 4
+	   	SmartBattery: finished polling type 4
+	  	IOConsoleUsers: time(0) 0->0, lin 1, llk 0, 
+	   	IOConsoleUsers: gIOScreenLockState 1, hs 0, bs 0, now 0, sm 0x0
+
+8. 	Command: 	uptime
+   	Output:  	9:32  up 1 day, 15:59, 2 users, load averages: 2.10 2.55 2.85
+
+9. 	Command: 	who am i
+	Output: 	nhatanhnguyenbui ttys000  Jan 14 09:20 
+
+10. 	Command: 	whoami
+	Output:		nhatanhnguyenbui
+
+11. 	Command: 	who
+	Output:		nhatanhnguyenbui console  Jan 12 17:33 
+			nhatanhnguyenbui ttys000  Jan 14 09:20 
+
+12. 	Command: 	id
+	Output:		
+		uid=501(nhatanhnguyenbui) gid=20(staff) groups=20(staff),450(_xcs),501(access_bpf),1(daemon),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),98(_lpadmin),204(_developer),701(com.apple.sharepoint.group.1),33(_appstore),100(_lpoperator),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh),400(com.apple.access_remote_ae)
+
+13. 	Command: 	last
+	Output: 	
+nhatanhnguyenbui  console                   Sun Jan 12 12:22 - 17:24  (05:01)
+reboot    ~                         Sun Jan 12 12:22 
+shutdown  ~                         Sun Jan 12 12:21 
+nhatanhnguyenbui  console                   Sat Jan 11 11:00 - 12:21 (1+01:21)
+reboot    ~                         Sat Jan 11 10:59 
+shutdown  ~                         Sat Jan 11 10:56 
+nhatanhnguyenbui  ttys000                   Sat Jan 11 08:51 - 08:51  (00:00)
+nhatanhnguyenbui  ttys001                   Sat Jan 11 07:03 - 07:03  (00:00)
+nhatanhnguyenbui  ttys000                   Fri Jan 10 19:12 - 19:12  (00:00)
+
+wtmp begins Fri Jan 10 19:12 
+
+14. 	Command:	finger
+	Output:		
+Login    Name                 TTY  Idle  Login  Time   Office  Phone
+nhatanhnguyenbui Nguyễn Bùi Nhậ *con    1d  Sun    17:33
+nhatanhnguyenbui Nguyễn Bùi Nhật s00        Tue    09:20
+
+15. 	Command:	w
+	Output:		
+ 9:39  up 1 day, 16:07, 2 users, load averages: 2.24 2.31 2.58
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+nhatanhnguyenbui console  -                Sun17   1day  -
+nhatanhnguyenbui s000     -                 9:20       - w
+
